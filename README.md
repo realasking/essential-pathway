@@ -96,5 +96,7 @@ Uninstall all settings<br>
 ep u 
 ```
 
+When the module epath has been loaded, one can use "$PATHWAY\_NAME" instead of the whole path, the "" pair cannot be omitted if there are blank spaces in the path.
+
 realasking
 Aug 15,2017

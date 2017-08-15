@@ -10,9 +10,8 @@ with open('changelog.md') as buff:
 CLASSIFIERS = [
     'Programming Language :: Python :: 3',
     'Topic :: Utilities',
-    'Topic :: Education',
     'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
-    'Development Status :: 5 - Production/Stable'
+    'Development Status :: 5 - Production/Stable',
 ]
 
 setup(
