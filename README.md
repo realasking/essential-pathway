@@ -10,10 +10,10 @@ Essential-pathway Documentation v1.0
 Introduction
 ------------
 Essential-pathway (short for ep) is a tool that helps people quickly access to their most commonly used folders in command line in some 
-operation systems like linux. A PATHWAY is an environment variable defined by users using this tool, which consists of a pathway name, a path and a comment. 
-One can add, modify or delete their definations of PATHWAYS to their folders' paths, or do some comments to prevent forgetting.
+operation systems like linux. A PATHWAY is defined as a user named environment variable using this tool, which consists of a pathway name, a path and a comment. 
+One can add, modify or delete PATHWAYS which linked to their folders' paths, or do some comments for memory.
 
-This tool have only been tested in archlinux and might not be able to use under root. It's based on Environment Modules (short for em) and is released under LGPLv3.
+This tool has only been tested in archlinux and might not be able to use under root. It's based on Environment Modules (short for em) and is released under LGPLv3.
 
 Dependencies
 ------------
