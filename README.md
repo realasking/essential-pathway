@@ -1,5 +1,5 @@
-Essential-pathway Documentation v1.0
-====================================
+Essential-pathway Documentation
+===============================
 **Quick Links**
 ---------------
 - `Project <https://github.com/realasking/essential-pathway>`

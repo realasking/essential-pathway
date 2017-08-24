@@ -6,7 +6,7 @@ from . import einit
 from . import epprocess
 
 __name__='essential-pathway'
-__version__ = '1.0'
+__version__ = '1.0.1'
 __short_description__ = 'Manage your most commonly used directories in command line, requires the tcl edition Environment Module.'
 __author__ = 'realasking'
 __author_email__ ='<realasking@gmail.com,tomwangsim@163.com>'

@@ -16,7 +16,7 @@ CLASSIFIERS = [
 
 setup(
     name='essential-pathway',
-    version='1.0',
+    version='1.0.1',
     keywords=['ep','epw','environment variables','path','pathway','essential pathway'],
     description='Manage your most commonly used directories in command line, requires the tcl edition Environment Module.',
     long_description=longdes,

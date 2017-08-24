@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-#Essential Pathways v1.0
+#Essential Pathways v1.0.1
 #Author:realasking
 #Email:realasking@gmail.com,tomwangsim@163.com
-#Aug-06,2017,in USTB
+#Aug-23,2017,in USTB
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 import sys 
 import os 
@@ -19,6 +19,8 @@ dbp=epw.epprocess.pathwayops(conf_folder,dbfile,module_name)
 dbp.cmodfile()
 
 sysagv=len(sys.argv)
+
+os.system('module unload '+module_name)
 
 if sysagv==1:
    infos.Outhelp()
@@ -60,3 +62,4 @@ else:
    else:
      infos.Inerror()
 
+os.system('module load '+module_name)

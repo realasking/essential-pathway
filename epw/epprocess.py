@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 #Process the database for essential pathways
-#Essential Pathways v1.0
+#Essential Pathways v1.0.1
 #Author:realasking
 #Email:realasking@gmail.com,tomwangsim@163.com
-#Aug-06,2017,in USTB
+#Aug-23,2017,in USTB
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 import sys
 import os
