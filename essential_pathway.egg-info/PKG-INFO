@@ -1,13 +1,13 @@
 Metadata-Version: 1.1
 Name: essential-pathway
-Version: 1.0
+Version: 1.0.1
 Summary: Manage your most commonly used directories in command line, requires the tcl edition Environment Module.
 Home-page: https://github.com/realasking/essential-pathway
 Author: realasking
 Author-email: realasking@gmail.com,tomwangsim@163.com
 License: UNKNOWN
-Description: Essential-pathway Documentation v1.0
-        ====================================
+Description: Essential-pathway Documentation
+        ===============================
         **Quick Links**
         ---------------
         - `Project <https://github.com/realasking/essential-pathway>`
@@ -18,10 +18,10 @@ Description: Essential-pathway Documentation v1.0
         Introduction
         ------------
         Essential-pathway (short for ep) is a tool that helps people quickly access to their most commonly used folders in command line in some 
-        operation systems like linux. A PATHWAY is an environment variable defined by users using this tool, which consists of a pathway name, a path and a comment. 
-        One can add, modify or delete their definations of PATHWAYS to their folders' paths, or do some comments to prevent forgetting.
+        operation systems like linux. A PATHWAY is defined as a user named environment variable using this tool, which consists of a pathway name, a path and a comment. 
+        One can add, modify or delete PATHWAYS which linked to their folders' paths, or do some comments for memory.
         
-        This tool have only been tested in archlinux and might not be able to use under root. It's based on Environment Modules (short for em) and is released under LGPLv3.
+        This tool has only been tested in archlinux and might not be able to use under root. It's based on Environment Modules (short for em) and is released under LGPLv3.
         
         Dependencies
         ------------
@@ -104,13 +104,16 @@ Description: Essential-pathway Documentation v1.0
         ep u 
         ```
         
+        When the module epath has been loaded, one can use "$PATHWAY\_NAME" instead of the whole path, the "" pair cannot be omitted if there are blank spaces in the path.
+        
         realasking
         Aug 15,2017
         changlog
         --------
-        2017-07-23 Begins to arrange older scripts I wrote to manage massive folders' paths
-        2017-08-06 All scripts have been rewritten by using python3
+        2017-08-23 Modified ep to keep module file epath unloaded before ep start.
         2017-08-15 Finished debuging and testing in 64bit linux, and publish version 1.0 
+        2017-08-06 All scripts have been rewritten by using python3
+        2017-07-23 Begins to arrange older scripts I wrote to manage massive folders' paths
         
 Keywords: ep,epw,environment variables,path,pathway,essential pathway
 Platform: linux
@@ -119,6 +122,5 @@ Platform: freebsd
 Platform: Unix
 Classifier: Programming Language :: Python :: 3
 Classifier: Topic :: Utilities
-Classifier: Topic :: Education
 Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
 Classifier: Development Status :: 5 - Production/Stable

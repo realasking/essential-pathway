@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 #Process the database for essential pathways
-#Essential Pathways v1.0.2
+#Essential Pathways v1.0.1
 #Author:realasking
 #Email:realasking@gmail.com,tomwangsim@163.com
 #Aug-23,2017,in USTB
@@ -16,7 +16,7 @@ from epw import cmds
 from epw import einit as ei
 from prettytable import PrettyTable
 
-__version__ = '1.0.2'
+__version__ = '1.0'
 __author__ = 'realasking <realasking@gmail.com,tomwangsim@163.com>'
 __license__ = 'LGPLv3'
 

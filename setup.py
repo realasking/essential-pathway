@@ -16,7 +16,7 @@ CLASSIFIERS = [
 
 setup(
     name='essential-pathway',
-    version='1.0.1',
+    version='1.0.2',
     keywords=['ep','epw','environment variables','path','pathway','essential pathway'],
     description='Manage your most commonly used directories in command line, requires the tcl edition Environment Module.',
     long_description=longdes,
@@ -26,7 +26,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=['prettytable'],
-    scripts=['bin/ep'],
+    scripts=['bin/ep','bin/eppy'],
     platforms=['linux','cygwin','freebsd','Unix'],
     classifiers=CLASSIFIERS,
 )
